@@ -15,12 +15,44 @@ section{
   display: inline-block;
   width: auto;
   align-content: center;
+  align-items: flex-start;
 }
 
 .nav-links{
   text-align: center;
 }
+h3{
+  text-align: center;
+}
+
+.container{
+  background: linear-gradient(#FCFDC9, #69E1ED);
+  color: #04525F;
+  margin: 20px;
+  padding: 10px
+}
 
 ul{
   list-style:none;
+}
+a{
+  text-decoration: none;
+  color: #038AAF;
+}
+
+#smilingcat{
+  display: inline;
+  align-content: center;
+  height: 50%;
+  width: 50%;
+}
+
+#theButton{
+  display:inline-flex;
+  height: 80px;
+  width: 100px;
+  font-weight: bold;
+  color: purple;
+  background-color: yellow;
+  align-content: flex-start;
 }
